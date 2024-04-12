@@ -1,0 +1,66 @@
+.anime_01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-size: 18px;
+  background-color: rgb(193, 148, 234);
+}
+.anime_02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-size: 18px;
+  background-color: rgb(176, 172, 172);
+}
+.anime_03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-size: 18px;
+  background-color: rgb(240, 132, 64);
+}
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.pseudoclases {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-size: 18px;
+  background-color: rgb(99, 241, 134);
+}
+a {
+  text-decoration: none;
+}
+.anime_01 :active {
+  color: white;
+}
+.anime_02 :visited {
+  color: red;
+}
+.anime_003 p:first-child {
+  background-color: black;
+  color: rgb(240, 132, 64);
+}
+.anime_003 p:last-child {
+  background-color: black;
+  color: rgb(240, 132, 64);
+}
+.pseudoclases h2:first-of-type {
+  background-color: black;
+  color: rgb(99, 241, 134);
+  font-size: x-large;
+}
+.pseudoclases p:last-of-type {
+  background-color: brown;
+  color: white;
+  font-family: cursive;
+}
